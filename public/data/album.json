@@ -1,11 +1,11 @@
 {
   "title": {
     "en": "Camilo & Megz 10 Year Anniversary",
-    "es": "Camilo & Megz, 10 años"
+    "es": "Camilo & Megz, 10 años de aniversario"
   },
   "subtitle": {
     "en": "Puerto Rico in chapters. From city rooms and Old San Juan streets to west coast sunsets, colorful piers, Bacardí, neon nights, and the last stretch of clear water before heading home.",
-    "es": "Puerto Rico por capítulos. Desde cuartos en la ciudad y calles del Viejo San Juan hasta atardeceres en la costa oeste, muelles llenos de color, Bacardí, noches de neón y el último tramo de agua clara antes de volver a casa."
+    "es": "Puerto Rico por capítulos. Desde cuartos en la ciudad y calles del Viejo San Juan hasta atardeceres en la costa oeste, muelles llenos de color, Bacardí, noches de neón y un último vistazo al agua clara del Caribe antes de volver a nuestra casita en Iowa."
   },
   "location": {
     "en": "Puerto Rico",
@@ -29,7 +29,7 @@
   },
   "intro": {
     "en": "Seven days, shoreline light, tropical color, and enough room to swap in the real story whenever the album is ready.",
-    "es": "Siete días, luz junto al mar, color tropical y espacio suficiente para dejar que la historia siga tomando forma."
+    "es": "Siete días, luz junto al mar, color tropical y la sensación de que somos los primeros de la familia en dar estos pasos para que nuestros seres queridos y descendientes tengan un camino más fácil."
   },
   "updateNote": {
     "en": "Replace images inside the existing /content/day-01 to /content/day-07 and /content/extras folders, then edit titles, captions, alt text, and music in /data/album.json.",

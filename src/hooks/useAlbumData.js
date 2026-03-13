@@ -17,12 +17,12 @@ function createPhotoSlot(sectionId, slotNumber, prefix = "photo") {
     title: createLocalizedText(`Slot ${paddedSlot}`, `Espacio ${paddedSlot}`),
     caption: createLocalizedText(
       "Replace this caption in data/album.json when the real photo is ready.",
-      "Reemplaza este pie de foto en data/album.json cuando la imagen real esté lista."
+      ""
     ),
     location: createLocalizedText(""),
     note: createLocalizedText(
       "Replace the file or update this path later.",
-      "Reemplaza el archivo o actualiza esta ruta más adelante."
+      ""
     )
   };
 }
@@ -34,7 +34,7 @@ function createSection(sectionId, label, title, prefix = "photo") {
     title,
     subtitle: createLocalizedText(
       "Edit this section title, subtitle, and captions in data/album.json.",
-      "Edita el título, subtítulo y pies de foto de esta sección en data/album.json."
+      ""
     ),
     photos: Array.from({ length: 3 }, (_, index) => createPhotoSlot(sectionId, index + 1, prefix))
   };
@@ -53,11 +53,11 @@ const DEFAULT_ALBUM = {
   momentsLabel: createLocalizedText("24"),
   intro: createLocalizedText(
     "Drop images into the existing day folders, then update titles and captions in data/album.json. Each day starts with three wired slots and an extras section at the end.",
-    "Agrega las imágenes a las carpetas de cada día y luego actualiza los títulos y pies de foto en data/album.json. Cada día empieza con tres espacios y una sección extra al final."
+    ""
   ),
   updateNote: createLocalizedText(
     "Replace images inside the existing folders, then edit titles, captions, alt text, and music in /data/album.json.",
-    "Reemplaza las imágenes dentro de las carpetas existentes y luego edita títulos, pies de foto, texto alternativo y música en /data/album.json."
+    ""
   ),
   printUrl: "https://photo.walgreens.com/store/home",
   audio: {
