@@ -1,24 +1,18 @@
-export function LanguageToggle({ language, onChange, label, options }) {
+export function LanguageToggle({ language, onChange, copy }) {
+  const isEnglish = language === "en";
+  const nextLanguage = isEnglish ? "es" : "en";
+  const buttonText = isEnglish ? copy.switchToSpanish : copy.switchToEnglish;
+  const ariaLabel = isEnglish ? copy.switchToSpanishAria : copy.switchToEnglishAria;
+
   return (
-    <div className="language-toggle" role="group" aria-label={label}>
+    <div className={`language-toggle language-toggle--${language}`}>
       <button
-        className={`language-toggle__button${language === "en" ? " language-toggle__button--active" : ""}`}
+        className="language-toggle__button"
         type="button"
-        onClick={() => onChange("en")}
-        aria-pressed={language === "en"}
+        onClick={() => onChange(nextLanguage)}
+        aria-label={ariaLabel}
       >
-        {options.en}
-      </button>
-      <span className="language-toggle__divider" aria-hidden="true">
-        |
-      </span>
-      <button
-        className={`language-toggle__button${language === "es" ? " language-toggle__button--active" : ""}`}
-        type="button"
-        onClick={() => onChange("es")}
-        aria-pressed={language === "es"}
-      >
-        {options.es}
+        <span className="language-toggle__button-label">{buttonText}</span>
       </button>
     </div>
   );

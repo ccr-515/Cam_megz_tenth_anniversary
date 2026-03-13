@@ -476,50 +476,158 @@ code {
 
 .language-toggle {
   display: inline-flex;
-  align-items: center;
-  gap: 0.18rem;
-  padding: 0.18rem 0.22rem;
-  border-radius: 999px;
-  background: linear-gradient(180deg, rgba(255, 252, 248, 0.86), rgba(255, 247, 241, 0.72));
-  border: 1px solid rgba(185, 84, 66, 0.12);
-  box-shadow: 0 10px 18px rgba(67, 55, 49, 0.06);
-  backdrop-filter: blur(10px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
 }
 
 .language-toggle__button {
-  border: 0;
-  background: transparent;
-  padding: 0.34rem 0.56rem;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: clamp(10.8rem, 22vw, 12.6rem);
+  min-height: 3.15rem;
+  padding: 0.9rem 1.45rem;
   border-radius: 999px;
+  border: 1px solid transparent;
+  background: transparent;
   font: inherit;
-  font-size: 0.7rem;
+  font-size: 0.92rem;
   font-weight: 800;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: rgba(67, 55, 49, 0.64);
+  letter-spacing: 0.08em;
+  line-height: 1;
+  white-space: nowrap;
   cursor: pointer;
+  touch-action: manipulation;
   transition:
-    background-color 180ms ease,
-    color 180ms ease,
-    box-shadow 180ms ease;
+    transform 180ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease,
+    color 220ms ease;
+}
+
+.language-toggle__button::before,
+.language-toggle__button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.language-toggle__button::before {
+  inset: 1px;
+  z-index: -2;
+}
+
+.language-toggle__button::after {
+  z-index: -1;
+  transition:
+    transform 280ms ease,
+    opacity 280ms ease;
+}
+
+.language-toggle__button-label {
+  position: relative;
+  z-index: 1;
+}
+
+.language-toggle--en .language-toggle__button {
+  color: rgba(49, 87, 84, 0.94);
+  border-color: rgba(76, 128, 151, 0.22);
+  box-shadow:
+    0 18px 32px rgba(47, 82, 79, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.language-toggle--en .language-toggle__button::before {
+  background:
+    linear-gradient(135deg, rgba(248, 252, 250, 0.98), rgba(226, 238, 233, 0.94)),
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.42), transparent 48%);
+}
+
+.language-toggle--en .language-toggle__button::after {
+  inset: -18% auto -18% -16%;
+  width: 62%;
+  background: linear-gradient(
+    104deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.24) 26%,
+    rgba(132, 176, 194, 0.38) 54%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: translateX(-8%) rotate(15deg);
+  opacity: 0.76;
+  animation: languageSheen 8.6s ease-in-out infinite;
+}
+
+.language-toggle--es .language-toggle__button {
+  color: rgba(123, 66, 55, 0.96);
+  border-color: rgba(185, 84, 66, 0.24);
+  box-shadow:
+    0 18px 34px rgba(102, 58, 45, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.66);
+}
+
+.language-toggle--es .language-toggle__button::before {
+  background:
+    linear-gradient(135deg, rgba(255, 250, 246, 0.98), rgba(247, 227, 216, 0.94)),
+    radial-gradient(circle at 18% 20%, rgba(255, 255, 255, 0.38), transparent 42%);
+}
+
+.language-toggle--es .language-toggle__button::after {
+  inset: auto -10% -150% auto;
+  width: 9.5rem;
+  height: 9.5rem;
+  background: radial-gradient(circle, rgba(255, 210, 185, 0.58), rgba(255, 210, 185, 0));
+  transform: translateY(0) scale(0.96);
+  opacity: 0.88;
+  animation: languageBloom 7.4s ease-in-out infinite;
 }
 
 .language-toggle__button:hover,
 .language-toggle__button:focus-visible {
-  color: rgba(67, 55, 49, 0.88);
+  transform: translateY(-1px);
   outline: none;
 }
 
-.language-toggle__button--active {
-  background: linear-gradient(180deg, rgba(255, 252, 248, 0.98), rgba(255, 246, 239, 0.82));
-  color: rgba(112, 55, 43, 0.96);
-  box-shadow: 0 8px 16px rgba(67, 55, 49, 0.08);
+.language-toggle--en .language-toggle__button:hover,
+.language-toggle--en .language-toggle__button:focus-visible {
+  box-shadow:
+    0 22px 38px rgba(47, 82, 79, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.76);
 }
 
-.language-toggle__divider {
-  color: rgba(67, 55, 49, 0.34);
-  font-size: 0.74rem;
-  font-weight: 700;
+.language-toggle--en .language-toggle__button:hover::after,
+.language-toggle--en .language-toggle__button:focus-visible::after {
+  transform: translateX(6%) rotate(15deg);
+  opacity: 0.92;
+}
+
+.language-toggle--es .language-toggle__button:hover,
+.language-toggle--es .language-toggle__button:focus-visible {
+  box-shadow:
+    0 22px 40px rgba(102, 58, 45, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.72);
+}
+
+.language-toggle--es .language-toggle__button:hover::after,
+.language-toggle--es .language-toggle__button:focus-visible::after {
+  transform: translateY(-5%) scale(1.04);
+  opacity: 1;
+}
+
+.language-toggle__button:active {
+  transform: translateY(1px) scale(0.986);
+}
+
+.language-toggle__button:focus-visible {
+  box-shadow:
+    0 0 0 3px rgba(255, 251, 245, 0.96),
+    0 0 0 6px rgba(185, 84, 66, 0.14);
 }
 
 .hero__aside {
@@ -1424,6 +1532,32 @@ code {
   }
 }
 
+@keyframes languageSheen {
+  0%,
+  100% {
+    transform: translateX(-10%) rotate(15deg);
+    opacity: 0.68;
+  }
+
+  50% {
+    transform: translateX(10%) rotate(15deg);
+    opacity: 0.94;
+  }
+}
+
+@keyframes languageBloom {
+  0%,
+  100% {
+    transform: translateY(0) scale(0.96);
+    opacity: 0.78;
+  }
+
+  50% {
+    transform: translateY(-6%) scale(1.04);
+    opacity: 1;
+  }
+}
+
 @media (max-width: 960px) {
   .hero {
     grid-template-columns: 1fr;
@@ -1569,6 +1703,12 @@ code {
     animation: none;
   }
 
+  .language-toggle--en .language-toggle__button::after,
+  .language-toggle--es .language-toggle__button::after {
+    animation: none;
+  }
+
+  .language-toggle__button,
   .music-control__button,
   .print-panel__button,
   .photo-card {

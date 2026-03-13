@@ -82,8 +82,7 @@ export default function App() {
             <LanguageToggle
               language={language}
               onChange={setLanguage}
-              label={ui.languageLabel}
-              options={ui.languageToggle}
+              copy={ui.languageToggle}
             />
           }
           musicControl={
