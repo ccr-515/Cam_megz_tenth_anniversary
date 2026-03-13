@@ -20,10 +20,7 @@ function createPhotoSlot(sectionId, slotNumber, prefix = "photo") {
       ""
     ),
     location: createLocalizedText(""),
-    note: createLocalizedText(
-      "Replace the file or update this path later.",
-      ""
-    )
+    note: createLocalizedText("")
   };
 }
 

@@ -97,10 +97,11 @@ export function localizeAlbum(album, language = DEFAULT_LANGUAGE) {
 export const UI_COPY = {
   en: {
     heroEyebrow: "Puerto Rico 2026",
-    languageLabel: "Language",
     languageToggle: {
-      en: "EN",
-      es: "ES"
+      switchToSpanish: "En Español",
+      switchToEnglish: "In English",
+      switchToSpanishAria: "Switch album language to Spanish",
+      switchToEnglishAria: "Switch album language to English"
     },
     hero: {
       locationLabel: "Location",
@@ -139,10 +140,11 @@ export const UI_COPY = {
   },
   es: {
     heroEyebrow: "Puerto Rico 2026",
-    languageLabel: "Idioma",
     languageToggle: {
-      en: "EN",
-      es: "ES"
+      switchToSpanish: "En Español",
+      switchToEnglish: "In English",
+      switchToSpanishAria: "Cambiar el idioma del álbum a español",
+      switchToEnglishAria: "Cambiar el idioma del álbum a inglés"
     },
     hero: {
       locationLabel: "Lugar",

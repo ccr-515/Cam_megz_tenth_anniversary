@@ -3,6 +3,9 @@ import { toImageCandidateUrls } from "../lib/assetPaths";
 import { FrameFlourish } from "./FrameFlourish";
 
 const CARD_VARIANTS = ["warm", "sea", "blush"];
+const NOTE_PLACEHOLDERS = new Set([
+  "replace the file or update this path later."
+]);
 
 export function PhotoCard({ photo, index, placeholderCopy }) {
   const [candidateIndex, setCandidateIndex] = useState(0);
@@ -10,7 +13,10 @@ export function PhotoCard({ photo, index, placeholderCopy }) {
   const imageCandidates = useMemo(() => toImageCandidateUrls(photo.src), [photo.src]);
   const imageUrl = imageCandidates[candidateIndex] ?? "";
   const variant = CARD_VARIANTS[index % CARD_VARIANTS.length];
-  const hasMeta = Boolean(photo.location || photo.note);
+  const location = typeof photo.location === "string" ? photo.location.trim() : "";
+  const note = typeof photo.note === "string" ? photo.note.trim() : "";
+  const sanitizedNote = NOTE_PLACEHOLDERS.has(note.toLowerCase()) ? "" : note;
+  const hasMeta = Boolean(location || sanitizedNote);
 
   useEffect(() => {
     setCandidateIndex(0);
@@ -56,8 +62,8 @@ export function PhotoCard({ photo, index, placeholderCopy }) {
       <div className="photo-card__body">
         {hasMeta ? (
           <p className="photo-card__meta">
-            {photo.location ? <span>{photo.location}</span> : null}
-            {photo.note ? <span>{photo.note}</span> : null}
+            {location ? <span>{location}</span> : null}
+            {sanitizedNote ? <span>{sanitizedNote}</span> : null}
           </p>
         ) : null}
         <h3>{photo.title}</h3>
