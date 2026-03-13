@@ -1,31 +1,76 @@
 {
-  "title": "Camilo & Megz 10 Year Anniversary",
-  "subtitle": "Puerto Rico in chapters. From city rooms and Old San Juan streets to west coast sunsets, colorful piers, Bacardí, neon nights, and the last stretch of clear water before heading home.",
-  "location": "Puerto Rico",
-  "yearsLabel": "Puerto Rico in chapters",
-  "story": "Puerto Rico in chapters",
-  "daysLabel": "7",
-  "momentsLabel": "24",
-  "intro": "Seven days, shoreline light, tropical color, and enough room to swap in the real story whenever the album is ready.",
-  "updateNote": "Replace images inside the existing /content/day-01 to /content/day-07 and /content/extras folders, then edit titles, captions, alt text, and music in /data/album.json.",
+  "title": {
+    "en": "Camilo & Megz 10 Year Anniversary",
+    "es": "Camilo & Megz, 10 años"
+  },
+  "subtitle": {
+    "en": "Puerto Rico in chapters. From city rooms and Old San Juan streets to west coast sunsets, colorful piers, Bacardí, neon nights, and the last stretch of clear water before heading home.",
+    "es": "Puerto Rico por capítulos. Desde cuartos en la ciudad y calles del Viejo San Juan hasta atardeceres en la costa oeste, muelles llenos de color, Bacardí, noches de neón y el último tramo de agua clara antes de volver a casa."
+  },
+  "location": {
+    "en": "Puerto Rico",
+    "es": "Puerto Rico"
+  },
+  "yearsLabel": {
+    "en": "Puerto Rico in chapters",
+    "es": "Puerto Rico por capítulos"
+  },
+  "story": {
+    "en": "Puerto Rico in chapters",
+    "es": "Puerto Rico por capítulos"
+  },
+  "daysLabel": {
+    "en": "7",
+    "es": "7"
+  },
+  "momentsLabel": {
+    "en": "24",
+    "es": "24"
+  },
+  "intro": {
+    "en": "Seven days, shoreline light, tropical color, and enough room to swap in the real story whenever the album is ready.",
+    "es": "Siete días, luz junto al mar, color tropical y espacio suficiente para dejar que la historia siga tomando forma."
+  },
+  "updateNote": {
+    "en": "Replace images inside the existing /content/day-01 to /content/day-07 and /content/extras folders, then edit titles, captions, alt text, and music in /data/album.json.",
+    "es": "Reemplaza las imágenes dentro de las carpetas existentes /content/day-01 a /content/day-07 y /content/extras, y luego ajusta títulos, pies de foto, texto alternativo y música en /data/album.json."
+  },
   "printUrl": "https://photo.walgreens.com/store/home",
   "audio": {
     "src": "/audio/gotas-de-lluvia.mp3",
-    "label": "Background music"
+    "label": {
+      "en": "Background music",
+      "es": "Música de fondo"
+    }
   },
   "days": [
     {
       "id": "day-01",
-      "label": "Day 01",
-      "title": "Arrival Energy",
-      "subtitle": "First room, first walk, first night out. The kind of beginning where everything still feels unwritten.",
+      "label": {
+        "en": "Day 01",
+        "es": "Día 01"
+      },
+      "title": {
+        "en": "Arrival Energy",
+        "es": "La energía de llegar"
+      },
+      "subtitle": {
+        "en": "First room, first walk, first night out. The kind of beginning where everything still feels unwritten.",
+        "es": "Primer cuarto, primera caminata, primera salida de noche. Ese tipo de comienzo en el que todo todavía parece estar por escribirse."
+      },
       "photos": [
         {
           "id": "day-01-photo-01",
           "src": "content/day-01/photo-01.jpg",
           "alt": "Arrival photo inside the first Puerto Rico room",
-          "title": "First Pause",
-          "caption": "First room, first pause, first breath of the trip.",
+          "title": {
+            "en": "First Pause",
+            "es": "Primera pausa"
+          },
+          "caption": {
+            "en": "First room, first pause, first breath of the trip.",
+            "es": "Primer cuarto, primera pausa, primer respiro del viaje."
+          },
           "location": "",
           "note": ""
         },
@@ -33,8 +78,14 @@
           "id": "day-01-photo-02",
           "src": "content/day-01/photo-02.jpg",
           "alt": "San Juan street scene at night",
-          "title": "First Night",
-          "caption": "City lights, warm air, and the feeling that the trip had finally begun.",
+          "title": {
+            "en": "First Night",
+            "es": "Primera noche"
+          },
+          "caption": {
+            "en": "City lights, warm air, and the feeling that the trip had finally begun.",
+            "es": "Luces de ciudad, aire tibio y la sensación de que el viaje por fin había empezado."
+          },
           "location": "",
           "note": ""
         },
@@ -42,8 +93,14 @@
           "id": "day-01-photo-03",
           "src": "content/day-01/photo-03.jpg",
           "alt": "Interior of the first stay in Puerto Rico",
-          "title": "Inside the Memory",
-          "caption": "The kind of place that felt like a memory as soon as we stepped inside.",
+          "title": {
+            "en": "Inside the Memory",
+            "es": "Dentro de un recuerdo"
+          },
+          "caption": {
+            "en": "The kind of place that felt like a memory as soon as we stepped inside.",
+            "es": "Ese tipo de lugar que se sintió como un recuerdo en cuanto entramos."
+          },
           "location": "",
           "note": ""
         }
@@ -51,16 +108,31 @@
     },
     {
       "id": "day-02",
-      "label": "Day 02",
-      "title": "Old San Juan",
-      "subtitle": "Mirrors, murals, color, and the kind of streets that make you slow down without trying.",
+      "label": {
+        "en": "Day 02",
+        "es": "Día 02"
+      },
+      "title": {
+        "en": "Old San Juan",
+        "es": "Viejo San Juan"
+      },
+      "subtitle": {
+        "en": "Mirrors, murals, color, and the kind of streets that make you slow down without trying.",
+        "es": "Espejos, murales, color y ese tipo de calles que te obligan a bajar el paso sin intentarlo."
+      },
       "photos": [
         {
           "id": "day-02-photo-01",
           "src": "content/day-02/photo-01.jpg",
           "alt": "Quiet sitting area in Old San Juan",
-          "title": "Quiet Corner",
-          "caption": "A quiet corner before the streets pulled us back out.",
+          "title": {
+            "en": "Quiet Corner",
+            "es": "Rincón tranquilo"
+          },
+          "caption": {
+            "en": "A quiet corner before the streets pulled us back out.",
+            "es": "Un rincón tranquilo antes de que las calles nos sacaran otra vez."
+          },
           "location": "",
           "note": ""
         },
@@ -68,8 +140,14 @@
           "id": "day-02-photo-02",
           "src": "content/day-02/photo-02.jpg",
           "alt": "Walking hand in hand through Old San Juan",
-          "title": "Pulled Through",
-          "caption": "Pulled through Old San Juan one block at a time.",
+          "title": {
+            "en": "Pulled Through",
+            "es": "Dejándonos llevar"
+          },
+          "caption": {
+            "en": "Pulled through Old San Juan one block at a time.",
+            "es": "El Viejo San Juan nos fue llevando cuadra por cuadra."
+          },
           "location": "",
           "note": ""
         },
@@ -77,8 +155,14 @@
           "id": "day-02-photo-03",
           "src": "content/day-02/photo-03.jpg",
           "alt": "Mural wall in Old San Juan",
-          "title": "Living Walls",
-          "caption": "Even the walls felt alive here.",
+          "title": {
+            "en": "Living Walls",
+            "es": "Muros vivos"
+          },
+          "caption": {
+            "en": "Even the walls felt alive here.",
+            "es": "Hasta las paredes se sentían vivas aquí."
+          },
           "location": "",
           "note": ""
         }
@@ -86,16 +170,31 @@
     },
     {
       "id": "day-03",
-      "label": "Day 03",
-      "title": "City Details",
-      "subtitle": "The slower side of San Juan. Art, windows, storm light, and all the little moments that ended up mattering.",
+      "label": {
+        "en": "Day 03",
+        "es": "Día 03"
+      },
+      "title": {
+        "en": "City Details",
+        "es": "Detalles de la ciudad"
+      },
+      "subtitle": {
+        "en": "The slower side of San Juan. Art, windows, storm light, and all the little moments that ended up mattering.",
+        "es": "El lado más lento de San Juan. Arte, ventanas, luz de tormenta y todos esos pequeños momentos que terminaron importando."
+      },
       "photos": [
         {
           "id": "day-03-photo-01",
           "src": "content/day-03/photo-01.jpg",
           "alt": "Interior with art and collected objects in San Juan",
-          "title": "Collected Over Time",
-          "caption": "Found inside the city, where every room felt collected over time.",
+          "title": {
+            "en": "Collected Over Time",
+            "es": "Coleccionado con el tiempo"
+          },
+          "caption": {
+            "en": "Found inside the city, where every room felt collected over time.",
+            "es": "Lo encontramos dentro de la ciudad, donde cada espacio parecía armado con el tiempo."
+          },
           "location": "",
           "note": ""
         },
@@ -103,8 +202,14 @@
           "id": "day-03-photo-02",
           "src": "content/day-03/photo-02.jpg",
           "alt": "View over colorful San Juan buildings under storm clouds",
-          "title": "Storm Light",
-          "caption": "Orange walls, storm clouds, and one of those views that stops you mid step.",
+          "title": {
+            "en": "Storm Light",
+            "es": "Luz de tormenta"
+          },
+          "caption": {
+            "en": "Orange walls, storm clouds, and one of those views that stops you mid step.",
+            "es": "Muros naranjas, nubes de tormenta y una de esas vistas que te detienen a medio paso."
+          },
           "location": "",
           "note": ""
         },
@@ -112,8 +217,14 @@
           "id": "day-03-photo-03",
           "src": "content/day-03/photo-03.jpg",
           "alt": "Another memorable corner in San Juan",
-          "title": "Another Corner",
-          "caption": "The city kept giving us corners worth remembering.",
+          "title": {
+            "en": "Another Corner",
+            "es": "Otro rincón"
+          },
+          "caption": {
+            "en": "The city kept giving us corners worth remembering.",
+            "es": "La ciudad siguió regalándonos esquinas para recordar."
+          },
           "location": "",
           "note": ""
         }
@@ -121,16 +232,31 @@
     },
     {
       "id": "day-04",
-      "label": "Day 04",
-      "title": "West Coast Sunset",
-      "subtitle": "Rincón View, poolside light, drinks in hand, and one of those west coast sunsets Puerto Rico is known for.",
+      "label": {
+        "en": "Day 04",
+        "es": "Día 04"
+      },
+      "title": {
+        "en": "West Coast Sunset",
+        "es": "Atardecer en la costa oeste"
+      },
+      "subtitle": {
+        "en": "Rincón View, poolside light, drinks in hand, and one of those west coast sunsets Puerto Rico is known for.",
+        "es": "Rincón View, luz de piscina, tragos en la mano y uno de esos atardeceres del oeste por los que Puerto Rico se queda contigo."
+      },
       "photos": [
         {
           "id": "day-04-photo-01",
           "src": "content/day-04/photo-01.jpg",
           "alt": "Couple at sunset by the pool in Rincón",
-          "title": "Ten Years In",
-          "caption": "West coast sunset, ten years in, still choosing each other.",
+          "title": {
+            "en": "Ten Years In",
+            "es": "Diez años después"
+          },
+          "caption": {
+            "en": "West coast sunset, ten years in, still choosing each other.",
+            "es": "Atardecer en la costa oeste, diez años después, todavía eligiéndonos."
+          },
           "location": "",
           "note": ""
         },
@@ -138,8 +264,14 @@
           "id": "day-04-photo-02",
           "src": "content/day-04/photo-02.jpg",
           "alt": "Pool and hillside view in Rincón",
-          "title": "Slower Time",
-          "caption": "The kind of view that makes time feel slower in the best way.",
+          "title": {
+            "en": "Slower Time",
+            "es": "Tiempo más lento"
+          },
+          "caption": {
+            "en": "The kind of view that makes time feel slower in the best way.",
+            "es": "Ese tipo de vista que hace que el tiempo se sienta más lento, de la mejor manera."
+          },
           "location": "",
           "note": ""
         },
@@ -147,8 +279,14 @@
           "id": "day-04-photo-03",
           "src": "content/day-04/photo-03.jpg",
           "alt": "Evening scene from the anniversary stay in Rincón",
-          "title": "Night That Fit",
-          "caption": "Pool, sky, and a night that felt exactly right.",
+          "title": {
+            "en": "Night That Fit",
+            "es": "La noche exacta"
+          },
+          "caption": {
+            "en": "Pool, sky, and a night that felt exactly right.",
+            "es": "Piscina, cielo y una noche que se sintió exactamente como debía."
+          },
           "location": "",
           "note": ""
         }
@@ -156,16 +294,31 @@
     },
     {
       "id": "day-05",
-      "label": "Day 05",
-      "title": "Crash Boat",
-      "subtitle": "A quick west coast stop that did not feel quick at all. Palm shade, bright water, and one of the most colorful piers on the island.",
+      "label": {
+        "en": "Day 05",
+        "es": "Día 05"
+      },
+      "title": {
+        "en": "Crash Boat",
+        "es": "Crash Boat"
+      },
+      "subtitle": {
+        "en": "A quick west coast stop that did not feel quick at all. Palm shade, bright water, and one of the most colorful piers on the island.",
+        "es": "Una parada rápida en la costa oeste que al final no tuvo nada de rápida. Sombra de palmas, agua brillante y uno de los muelles más coloridos de la isla."
+      },
       "photos": [
         {
           "id": "day-05-photo-01",
           "src": "content/day-05/photo-01.jpg",
           "alt": "Looking out over Crash Boat Beach",
-          "title": "Too Bright To Be Real",
-          "caption": "Crash Boat looked too bright to be real.",
+          "title": {
+            "en": "Too Bright To Be Real",
+            "es": "Demasiado brillante"
+          },
+          "caption": {
+            "en": "Crash Boat looked too bright to be real.",
+            "es": "Crash Boat se veía demasiado brillante para ser real."
+          },
           "location": "",
           "note": ""
         },
@@ -173,8 +326,14 @@
           "id": "day-05-photo-02",
           "src": "content/day-05/photo-02.jpg",
           "alt": "Colorful pier at Crash Boat Beach",
-          "title": "Pier Personality",
-          "caption": "Even the pier had personality.",
+          "title": {
+            "en": "Pier Personality",
+            "es": "Un muelle con personalidad"
+          },
+          "caption": {
+            "en": "Even the pier had personality.",
+            "es": "Hasta el muelle tenía personalidad."
+          },
           "location": "",
           "note": ""
         },
@@ -182,8 +341,14 @@
           "id": "day-05-photo-03",
           "src": "content/day-05/photo-03.jpg",
           "alt": "Another bright coastal stop on the west side of Puerto Rico",
-          "title": "Supposed To Be Quick",
-          "caption": "One of those stops that was supposed to be quick and still stuck with us.",
+          "title": {
+            "en": "Supposed To Be Quick",
+            "es": "Iba a ser rápido"
+          },
+          "caption": {
+            "en": "One of those stops that was supposed to be quick and still stuck with us.",
+            "es": "De esas paradas que se suponía iban a ser rápidas y aun así se nos quedaron."
+          },
           "location": "",
           "note": ""
         }
@@ -191,16 +356,31 @@
     },
     {
       "id": "day-06",
-      "label": "Day 06",
-      "title": "Bacardí to La Placita",
-      "subtitle": "Rum, city lights, and the switch from sightseeing to nightlife.",
+      "label": {
+        "en": "Day 06",
+        "es": "Día 06"
+      },
+      "title": {
+        "en": "Bacardí to La Placita",
+        "es": "Bacardí a La Placita"
+      },
+      "subtitle": {
+        "en": "Rum, city lights, and the switch from sightseeing to nightlife.",
+        "es": "Ron, luces de ciudad y ese momento en que el paseo se volvió noche."
+      },
       "photos": [
         {
           "id": "day-06-photo-01",
           "src": "content/day-06/photo-01.jpg",
           "alt": "Casa Bacardí sign with Meg posing",
-          "title": "Before It Got Louder",
-          "caption": "Casa Bacardí before the night got louder.",
+          "title": {
+            "en": "Before It Got Louder",
+            "es": "Antes de que subiera el ritmo"
+          },
+          "caption": {
+            "en": "Casa Bacardí before the night got louder.",
+            "es": "Casa Bacardí antes de que la noche se pusiera más ruidosa."
+          },
           "location": "",
           "note": ""
         },
@@ -208,8 +388,14 @@
           "id": "day-06-photo-02",
           "src": "content/day-06/photo-02.jpg",
           "alt": "Neon nightlife scene in La Placita",
-          "title": "La Placita Energy",
-          "caption": "Neon, crowd, and no reason to leave early.",
+          "title": {
+            "en": "La Placita Energy",
+            "es": "La energía de La Placita"
+          },
+          "caption": {
+            "en": "Neon, crowd, and no reason to leave early.",
+            "es": "Neón, gente y ninguna razón para irnos temprano."
+          },
           "location": "",
           "note": ""
         },
@@ -217,8 +403,14 @@
           "id": "day-06-photo-03",
           "src": "content/day-06/photo-03.jpg",
           "alt": "Night scene in Puerto Rico after Bacardí and La Placita",
-          "title": "After Dark",
-          "caption": "The city after dark had its own rhythm.",
+          "title": {
+            "en": "After Dark",
+            "es": "Después de oscurecer"
+          },
+          "caption": {
+            "en": "The city after dark had its own rhythm.",
+            "es": "La ciudad de noche tenía su propio ritmo."
+          },
           "location": "",
           "note": ""
         }
@@ -226,16 +418,31 @@
     },
     {
       "id": "day-07",
-      "label": "Day 07",
-      "title": "Last Water",
-      "subtitle": "One last beach, one last stretch of clear water, one last chance to stay inside the trip a little longer.",
+      "label": {
+        "en": "Day 07",
+        "es": "Día 07"
+      },
+      "title": {
+        "en": "Last Water",
+        "es": "La Última Orilla"
+      },
+      "subtitle": {
+        "en": "One last beach, one last stretch of clear water, one last chance to stay inside the trip a little longer.",
+        "es": "Una última playa, un último tramo de agua clara, una última oportunidad de quedarnos un poco más dentro del viaje."
+      },
       "photos": [
         {
           "id": "day-07-photo-01",
           "src": "content/day-07/photo-01.jpg",
           "alt": "Last beach shoreline in Puerto Rico",
-          "title": "Last Beach",
-          "caption": "The last beach always feels different.",
+          "title": {
+            "en": "Last Beach",
+            "es": "La última playa"
+          },
+          "caption": {
+            "en": "The last beach always feels different.",
+            "es": "La última playa siempre se siente distinta."
+          },
           "location": "",
           "note": ""
         },
@@ -243,8 +450,14 @@
           "id": "day-07-photo-02",
           "src": "content/day-07/photo-02.jpg",
           "alt": "Standing in clear shallow water on the final beach day",
-          "title": "Clear Enough",
-          "caption": "Clear water, quiet moment, no need to say much.",
+          "title": {
+            "en": "Clear Enough",
+            "es": "Así de clara"
+          },
+          "caption": {
+            "en": "Clear water, quiet moment, no need to say much.",
+            "es": "Agua clara, momento quieto, sin necesidad de decir mucho."
+          },
           "location": "",
           "note": ""
         },
@@ -252,8 +465,14 @@
           "id": "day-07-photo-03",
           "src": "content/day-07/photo-03.jpg",
           "alt": "Final beach view before leaving Puerto Rico",
-          "title": "One Last Look",
-          "caption": "One last look before Puerto Rico turned into memory.",
+          "title": {
+            "en": "One Last Look",
+            "es": "Una última mirada"
+          },
+          "caption": {
+            "en": "One last look before Puerto Rico turned into memory.",
+            "es": "Una última mirada antes de que Puerto Rico se volviera recuerdo."
+          },
           "location": "",
           "note": ""
         }
@@ -262,16 +481,31 @@
   ],
   "extras": {
     "id": "extras",
-    "label": "Extras",
-    "title": "Favorites",
-    "subtitle": "The shots that deserved their own section.",
+    "label": {
+      "en": "Extras",
+      "es": "Extras"
+    },
+      "title": {
+        "en": "Favorites",
+        "es": "Favoritos"
+      },
+      "subtitle": {
+        "en": "The shots that deserved their own section.",
+        "es": "Las fotos que merecían su propia esquina."
+      },
     "photos": [
       {
         "id": "extras-photo-01",
         "src": "content/extras/extra-01.jpg",
         "alt": "Portrait with historic stone and ocean in Puerto Rico",
-        "title": "Full Puerto Rico Mood",
-        "caption": "Old stone, ocean behind me, full Puerto Rico mood.",
+          "title": {
+            "en": "Full Puerto Rico Mood",
+            "es": "Puerto Rico en estado puro"
+          },
+        "caption": {
+          "en": "Old stone, ocean behind me, full Puerto Rico mood.",
+          "es": "Piedra antigua, el océano detrás de mí y Puerto Rico en estado puro."
+        },
         "location": "",
         "note": ""
       },
@@ -279,8 +513,14 @@
         "id": "extras-photo-02",
         "src": "content/extras/extra-02.jpg",
         "alt": "Wide coastal view from Puerto Rico",
-        "title": "Best View",
-        "caption": "One of the best views we got all trip.",
+          "title": {
+            "en": "Best View",
+            "es": "La mejor vista"
+          },
+        "caption": {
+          "en": "One of the best views we got all trip.",
+          "es": "Una de las mejores vistas de todo el viaje."
+        },
         "location": "",
         "note": ""
       },
@@ -288,8 +528,14 @@
         "id": "extras-photo-03",
         "src": "content/extras/extra-03.jpg",
         "alt": "Sky and coastline view from Puerto Rico",
-        "title": "Coast and Sky",
-        "caption": "Sky, coast, and that feeling Puerto Rico kept giving us.",
+          "title": {
+            "en": "Coast and Sky",
+            "es": "Costa y cielo"
+          },
+        "caption": {
+          "en": "Sky, coast, and that feeling Puerto Rico kept giving us.",
+          "es": "Cielo, costa y esa sensación que Puerto Rico no dejaba de darnos."
+        },
         "location": "",
         "note": ""
       }
