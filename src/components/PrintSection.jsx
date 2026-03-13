@@ -1,14 +1,14 @@
-export function PrintSection({ url }) {
+export function PrintSection({ url, copy }) {
   return (
     <section className="print-panel">
       <div className="print-panel__copy">
-        <p className="print-panel__eyebrow">Print keepsakes</p>
-        <h2>When the favorites are ready, send them to print.</h2>
-        <p>Open Walgreens Photo in a new tab when you're ready to turn the trip into prints.</p>
+        <p className="print-panel__eyebrow">{copy.eyebrow}</p>
+        <h2>{copy.title}</h2>
+        <p>{copy.body}</p>
       </div>
 
       <a className="print-panel__button" href={url} target="_blank" rel="noreferrer">
-        Open Walgreens Photo
+        {copy.button}
       </a>
     </section>
   );

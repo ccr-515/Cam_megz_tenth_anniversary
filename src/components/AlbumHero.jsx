@@ -1,17 +1,23 @@
 export function AlbumHero({
+  eyebrow,
   title,
   subtitle,
   location,
-  yearsLabel,
+  story,
   intro,
   dayCount,
   slotCount,
-  musicControl
+  musicControl,
+  languageToggle,
+  labels
 }) {
   return (
     <header className="hero">
       <div className="hero__copy">
-        <p className="hero__eyebrow">Puerto Rico 2026</p>
+        <div className="hero__topline">
+          <p className="hero__eyebrow">{eyebrow}</p>
+          {languageToggle}
+        </div>
         <h1>{title}</h1>
         <p className="hero__subtitle">{subtitle}</p>
         {intro ? <p className="hero__intro">{intro}</p> : null}
@@ -29,19 +35,19 @@ export function AlbumHero({
 
         <dl className="hero__stats">
           <div>
-            <dt>Location</dt>
+            <dt>{labels.locationLabel}</dt>
             <dd>{location}</dd>
           </div>
           <div>
-            <dt>Story</dt>
-            <dd>{yearsLabel}</dd>
+            <dt>{labels.storyLabel}</dt>
+            <dd>{story}</dd>
           </div>
           <div>
-            <dt>Days</dt>
+            <dt>{labels.daysLabel}</dt>
             <dd>{dayCount}</dd>
           </div>
           <div>
-            <dt>Moments</dt>
+            <dt>{labels.momentsLabel}</dt>
             <dd>{slotCount}</dd>
           </div>
         </dl>

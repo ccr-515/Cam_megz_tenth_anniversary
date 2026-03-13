@@ -4,7 +4,7 @@ import { FrameFlourish } from "./FrameFlourish";
 
 const CARD_VARIANTS = ["warm", "sea", "blush"];
 
-export function PhotoCard({ photo, index }) {
+export function PhotoCard({ photo, index, placeholderCopy }) {
   const [candidateIndex, setCandidateIndex] = useState(0);
   const [isMissing, setIsMissing] = useState(false);
   const imageCandidates = useMemo(() => toImageCandidateUrls(photo.src), [photo.src]);
@@ -45,7 +45,7 @@ export function PhotoCard({ photo, index }) {
             <div className="photo-card__placeholder-panel">
               <p>{photo.title}</p>
               <span>{photo.src}</span>
-              <small>Add the matching image to continue this chapter.</small>
+              <small>{placeholderCopy}</small>
             </div>
           </div>
         )}

@@ -74,14 +74,9 @@ export function useBackgroundAudio(trackPath) {
 
   return {
     isPlaying,
+    status,
     isAvailable: status === "ready" || isPlaying,
     isConfigured: Boolean(trackPath),
-    message:
-      status === "ready" || isPlaying
-        ? "Soundtrack ready"
-        : status === "missing" || status === "error"
-          ? "Add a track in /audio or update album.json"
-          : "",
     toggle
   };
 }

@@ -1,5 +1,5 @@
-export function MusicToggle({ label, isPlaying, isConfigured, isAvailable, message, onToggle }) {
-  const controlLabel = /background music/i.test(label) ? "Soundtrack" : label;
+export function MusicToggle({ label, isPlaying, isConfigured, isAvailable, message, onToggle, copy }) {
+  const controlLabel = label;
 
   return (
     <div className="music-control">
@@ -10,8 +10,8 @@ export function MusicToggle({ label, isPlaying, isConfigured, isAvailable, messa
         disabled={!isConfigured || (!isAvailable && Boolean(message))}
         aria-pressed={isPlaying}
       >
-        <span className="music-control__pill">{isPlaying ? "On" : "Off"}</span>
-        <span>{isPlaying ? `Mute ${controlLabel}` : `Play ${controlLabel}`}</span>
+        <span className="music-control__pill">{isPlaying ? copy.on : copy.off}</span>
+        <span>{isPlaying ? `${copy.mutePrefix} ${controlLabel}` : `${copy.playPrefix} ${controlLabel}`}</span>
       </button>
 
       {message ? <p className="music-control__hint">{message}</p> : null}
