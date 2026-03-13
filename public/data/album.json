@@ -1,0 +1,298 @@
+{
+  "title": "Camilo & Megz 10 Year Anniversary",
+  "subtitle": "Puerto Rico in chapters. From city rooms and Old San Juan streets to west coast sunsets, colorful piers, Bacardí, neon nights, and the last stretch of clear water before heading home.",
+  "location": "Puerto Rico",
+  "yearsLabel": "Puerto Rico in chapters",
+  "story": "Puerto Rico in chapters",
+  "daysLabel": "7",
+  "momentsLabel": "24",
+  "intro": "Seven days, shoreline light, tropical color, and enough room to swap in the real story whenever the album is ready.",
+  "updateNote": "Replace images inside the existing /content/day-01 to /content/day-07 and /content/extras folders, then edit titles, captions, alt text, and music in /data/album.json.",
+  "printUrl": "https://photo.walgreens.com/store/home",
+  "audio": {
+    "src": "/audio/gotas-de-lluvia.mp3",
+    "label": "Background music"
+  },
+  "days": [
+    {
+      "id": "day-01",
+      "label": "Day 01",
+      "title": "Arrival Energy",
+      "subtitle": "First room, first walk, first night out. The kind of beginning where everything still feels unwritten.",
+      "photos": [
+        {
+          "id": "day-01-photo-01",
+          "src": "content/day-01/photo-01.jpg",
+          "alt": "Arrival photo inside the first Puerto Rico room",
+          "title": "First Pause",
+          "caption": "First room, first pause, first breath of the trip.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-01-photo-02",
+          "src": "content/day-01/photo-02.jpg",
+          "alt": "San Juan street scene at night",
+          "title": "First Night",
+          "caption": "City lights, warm air, and the feeling that the trip had finally begun.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-01-photo-03",
+          "src": "content/day-01/photo-03.jpg",
+          "alt": "Interior of the first stay in Puerto Rico",
+          "title": "Inside the Memory",
+          "caption": "The kind of place that felt like a memory as soon as we stepped inside.",
+          "location": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "day-02",
+      "label": "Day 02",
+      "title": "Old San Juan",
+      "subtitle": "Mirrors, murals, color, and the kind of streets that make you slow down without trying.",
+      "photos": [
+        {
+          "id": "day-02-photo-01",
+          "src": "content/day-02/photo-01.jpg",
+          "alt": "Quiet sitting area in Old San Juan",
+          "title": "Quiet Corner",
+          "caption": "A quiet corner before the streets pulled us back out.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-02-photo-02",
+          "src": "content/day-02/photo-02.jpg",
+          "alt": "Walking hand in hand through Old San Juan",
+          "title": "Pulled Through",
+          "caption": "Pulled through Old San Juan one block at a time.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-02-photo-03",
+          "src": "content/day-02/photo-03.jpg",
+          "alt": "Mural wall in Old San Juan",
+          "title": "Living Walls",
+          "caption": "Even the walls felt alive here.",
+          "location": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "day-03",
+      "label": "Day 03",
+      "title": "City Details",
+      "subtitle": "The slower side of San Juan. Art, windows, storm light, and all the little moments that ended up mattering.",
+      "photos": [
+        {
+          "id": "day-03-photo-01",
+          "src": "content/day-03/photo-01.jpg",
+          "alt": "Interior with art and collected objects in San Juan",
+          "title": "Collected Over Time",
+          "caption": "Found inside the city, where every room felt collected over time.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-03-photo-02",
+          "src": "content/day-03/photo-02.jpg",
+          "alt": "View over colorful San Juan buildings under storm clouds",
+          "title": "Storm Light",
+          "caption": "Orange walls, storm clouds, and one of those views that stops you mid step.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-03-photo-03",
+          "src": "content/day-03/photo-03.jpg",
+          "alt": "Another memorable corner in San Juan",
+          "title": "Another Corner",
+          "caption": "The city kept giving us corners worth remembering.",
+          "location": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "day-04",
+      "label": "Day 04",
+      "title": "West Coast Sunset",
+      "subtitle": "Rincón View, poolside light, drinks in hand, and one of those west coast sunsets Puerto Rico is known for.",
+      "photos": [
+        {
+          "id": "day-04-photo-01",
+          "src": "content/day-04/photo-01.jpg",
+          "alt": "Couple at sunset by the pool in Rincón",
+          "title": "Ten Years In",
+          "caption": "West coast sunset, ten years in, still choosing each other.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-04-photo-02",
+          "src": "content/day-04/photo-02.jpg",
+          "alt": "Pool and hillside view in Rincón",
+          "title": "Slower Time",
+          "caption": "The kind of view that makes time feel slower in the best way.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-04-photo-03",
+          "src": "content/day-04/photo-03.jpg",
+          "alt": "Evening scene from the anniversary stay in Rincón",
+          "title": "Night That Fit",
+          "caption": "Pool, sky, and a night that felt exactly right.",
+          "location": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "day-05",
+      "label": "Day 05",
+      "title": "Crash Boat",
+      "subtitle": "A quick west coast stop that did not feel quick at all. Palm shade, bright water, and one of the most colorful piers on the island.",
+      "photos": [
+        {
+          "id": "day-05-photo-01",
+          "src": "content/day-05/photo-01.jpg",
+          "alt": "Looking out over Crash Boat Beach",
+          "title": "Too Bright To Be Real",
+          "caption": "Crash Boat looked too bright to be real.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-05-photo-02",
+          "src": "content/day-05/photo-02.jpg",
+          "alt": "Colorful pier at Crash Boat Beach",
+          "title": "Pier Personality",
+          "caption": "Even the pier had personality.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-05-photo-03",
+          "src": "content/day-05/photo-03.jpg",
+          "alt": "Another bright coastal stop on the west side of Puerto Rico",
+          "title": "Supposed To Be Quick",
+          "caption": "One of those stops that was supposed to be quick and still stuck with us.",
+          "location": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "day-06",
+      "label": "Day 06",
+      "title": "Bacardí to La Placita",
+      "subtitle": "Rum, city lights, and the switch from sightseeing to nightlife.",
+      "photos": [
+        {
+          "id": "day-06-photo-01",
+          "src": "content/day-06/photo-01.jpg",
+          "alt": "Casa Bacardí sign with Meg posing",
+          "title": "Before It Got Louder",
+          "caption": "Casa Bacardí before the night got louder.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-06-photo-02",
+          "src": "content/day-06/photo-02.jpg",
+          "alt": "Neon nightlife scene in La Placita",
+          "title": "La Placita Energy",
+          "caption": "Neon, crowd, and no reason to leave early.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-06-photo-03",
+          "src": "content/day-06/photo-03.jpg",
+          "alt": "Night scene in Puerto Rico after Bacardí and La Placita",
+          "title": "After Dark",
+          "caption": "The city after dark had its own rhythm.",
+          "location": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "day-07",
+      "label": "Day 07",
+      "title": "Last Water",
+      "subtitle": "One last beach, one last stretch of clear water, one last chance to stay inside the trip a little longer.",
+      "photos": [
+        {
+          "id": "day-07-photo-01",
+          "src": "content/day-07/photo-01.jpg",
+          "alt": "Last beach shoreline in Puerto Rico",
+          "title": "Last Beach",
+          "caption": "The last beach always feels different.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-07-photo-02",
+          "src": "content/day-07/photo-02.jpg",
+          "alt": "Standing in clear shallow water on the final beach day",
+          "title": "Clear Enough",
+          "caption": "Clear water, quiet moment, no need to say much.",
+          "location": "",
+          "note": ""
+        },
+        {
+          "id": "day-07-photo-03",
+          "src": "content/day-07/photo-03.jpg",
+          "alt": "Final beach view before leaving Puerto Rico",
+          "title": "One Last Look",
+          "caption": "One last look before Puerto Rico turned into memory.",
+          "location": "",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "extras": {
+    "id": "extras",
+    "label": "Extras",
+    "title": "Favorites",
+    "subtitle": "The shots that deserved their own section.",
+    "photos": [
+      {
+        "id": "extras-photo-01",
+        "src": "content/extras/extra-01.jpg",
+        "alt": "Portrait with historic stone and ocean in Puerto Rico",
+        "title": "Full Puerto Rico Mood",
+        "caption": "Old stone, ocean behind me, full Puerto Rico mood.",
+        "location": "",
+        "note": ""
+      },
+      {
+        "id": "extras-photo-02",
+        "src": "content/extras/extra-02.jpg",
+        "alt": "Wide coastal view from Puerto Rico",
+        "title": "Best View",
+        "caption": "One of the best views we got all trip.",
+        "location": "",
+        "note": ""
+      },
+      {
+        "id": "extras-photo-03",
+        "src": "content/extras/extra-03.jpg",
+        "alt": "Sky and coastline view from Puerto Rico",
+        "title": "Coast and Sky",
+        "caption": "Sky, coast, and that feeling Puerto Rico kept giving us.",
+        "location": "",
+        "note": ""
+      }
+    ]
+  }
+}
