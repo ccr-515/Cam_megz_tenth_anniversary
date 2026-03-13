@@ -151,7 +151,7 @@ export const UI_COPY = {
       momentsLabel: "Momentos"
     },
     loading: {
-      eyebrow: "Abriendo Puerto Rico",
+      eyebrow: "Abriendo el álbum",
       text: "Reuniendo los capítulos del viaje."
     },
     error: {
@@ -166,7 +166,7 @@ export const UI_COPY = {
       off: "NO",
       playPrefix: "Escuchar",
       mutePrefix: "Silenciar",
-      ready: "Soundtrack listo",
+      ready: "Banda sonora lista",
       missing: "Agrega una pista en /audio o actualiza album.json"
     },
     placeholder: {
@@ -174,8 +174,8 @@ export const UI_COPY = {
     },
     print: {
       eyebrow: "Recuerdos impresos",
-      title: "Cuando los favoritos estén listos, mándalos a imprimir.",
-      body: "Abre Walgreens Photo en una pestaña nueva cuando quieras convertir el viaje en impresos.",
+      title: "Cuando las favoritas estén listas, es momento de imprimirlas.",
+      body: "Abre Walgreens Photo en una pestaña nueva cuando quieras convertir el viaje en recuerdos impresos.",
       button: "Abrir Walgreens Photo"
     }
   }
