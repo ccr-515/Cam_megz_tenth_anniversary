@@ -170,7 +170,7 @@ export const UI_COPY = {
       missing: "Agrega una pista en /audio o actualiza album.json"
     },
     placeholder: {
-      followup: "Agrega la imagen correspondiente para continuar este capítulo."
+      followup: ""
     },
     print: {
       eyebrow: "Recuerdos impresos",
